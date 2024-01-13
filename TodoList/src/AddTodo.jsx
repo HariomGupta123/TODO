@@ -1,6 +1,7 @@
 const AddTodo = ({ input, onSelect,id }) => {
   return (
-    <>
+  
+    <div>
       <ul>
         <li>
           {input}{" "}
@@ -13,7 +14,8 @@ const AddTodo = ({ input, onSelect,id }) => {
           </button>
         </li>
       </ul>
-    </>
+  
+    </div>
   );
 };
 export default AddTodo;

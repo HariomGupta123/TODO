@@ -3,10 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: black;
 }
 .todo{
   width: 400px;
   height: 200px;
   background-color: beige;
+}
+.add{
+  background-color: aliceblue;
+  width: 400px;
+  height: 400px;
 }
 

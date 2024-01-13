@@ -30,11 +30,11 @@ const App=()=>{
   return<>
 <h1 style={{backgroundColor:"red",width:400}}>todo list</h1>
 <div className='todo'>
-<h1>hariom</h1>
+<h1 style={{color:"black"}}>hariom</h1>
 <input type='text' placeholder='add your todo' value={input} onChange={(e)=>{setInput(e.target.value)}}/>
 <button onClick={Add}>add</button>
 </div>
-<div className='add'>
+<div className='add' >
 { list.map((arr,index)=>{
   return(
  <AddTodo input={arr} key={index} id={index} onSelect={remove} />)})
